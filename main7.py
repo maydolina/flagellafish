@@ -255,11 +255,8 @@ class UI:
             "",
             "Scenarios: 1=Bacteria  2=Fish",
             "",
-            "Top Creature Controls:",
+            "Both Creatures Controls:",
             "Q/A: Frequency   W/S: Size",
-            "",
-            "Bottom Creature Controls:",
-            "E/D: Frequency   R/F: Size",
             "",
             "Environments:",
             "Z=Water  X=Honey  C=Air  V=Oil  B=Cytoplasm",
@@ -373,30 +370,26 @@ class Game:
 
             keys = pygame.key.get_pressed()
 
-            # Top creature controls (Q/A for freq, W/S for size)
+            # Both creatures' frequency controls (Q/A)
             if keys[pygame.K_q]:
                 self.top.freq = min(1000, self.top.freq*1.02)
+                self.bottom.freq = min(1000, self.bottom.freq*1.02)
             if keys[pygame.K_a]:
                 self.top.freq = max(0.1, self.top.freq*0.98)
+                self.bottom.freq = max(0.1, self.bottom.freq*0.98)
+
+            # Both creatures' size controls (W/S)
             if keys[pygame.K_w]:
                 self.top.L = min(2.0, self.top.L*1.02)
                 self.top.amp = max(1e-6, 0.2 * self.top.L)
                 self.top.pitch = max(1e-6, 0.2 * self.top.L)
+                self.bottom.L = min(2.0, self.bottom.L*1.02)
+                self.bottom.amp = max(1e-6, 0.2 * self.bottom.L)
+                self.bottom.pitch = max(1e-6, 0.2 * self.bottom.L)
             if keys[pygame.K_s]:
                 self.top.L = max(1e-6, self.top.L*0.98)
                 self.top.amp = max(1e-6, 0.2 * self.top.L)
                 self.top.pitch = max(1e-6, 0.2 * self.top.L)
-
-            # Bottom creature controls (E/D for freq, R/F for size)
-            if keys[pygame.K_e]:
-                self.bottom.freq = min(1000, self.bottom.freq*1.02)
-            if keys[pygame.K_d]:
-                self.bottom.freq = max(0.1, self.bottom.freq*0.98)
-            if keys[pygame.K_r]:
-                self.bottom.L = min(2.0, self.bottom.L*1.02)
-                self.bottom.amp = max(1e-6, 0.2 * self.bottom.L)
-                self.bottom.pitch = max(1e-6, 0.2 * self.bottom.L)
-            if keys[pygame.K_t]:  # Changed from F to T to avoid conflict with labels toggle
                 self.bottom.L = max(1e-6, self.bottom.L*0.98)
                 self.bottom.amp = max(1e-6, 0.2 * self.bottom.L)
                 self.bottom.pitch = max(1e-6, 0.2 * self.bottom.L)
@@ -435,8 +428,7 @@ class Game:
             # Controls reminder (bottom-right)
             control_lines = [
                 "Controls:",
-                "Top: Q/A=freq W/S=size",
-                "Bot: E/D=freq R/T=size",
+                "Q/A=frequency W/S=size",
                 "Env: Z/X/C/V/B",
                 "1/2=scenario F=labels"
             ]
