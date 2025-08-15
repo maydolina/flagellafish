@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115b16d9-dad6-4312-9509-2cf0fde79a91" name="Changes" comment="">
+    <list default="true" id="115b16d9-dad6-4312-9509-2cf0fde79a91" name="Changes" comment="added v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   "keyToString": {
     "Python.main.executor": "Run",
     "Python.main2.executor": "Run",
+    "Python.main3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
@@ -67,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1755101512108</updated>
     </task>
+    <task id="LOCAL-00001" summary="added v2">
+      <option name="closed" value="true" />
+      <created>1755243287970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755243287970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added v2" />
   </component>
 </project>
