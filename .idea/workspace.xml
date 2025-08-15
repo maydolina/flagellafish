@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115b16d9-dad6-4312-9509-2cf0fde79a91" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/main7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,8 @@
     "Python.main3.executor": "Run",
     "Python.main4.executor": "Run",
     "Python.main5.executor": "Run",
+    "Python.main6.executor": "Run",
+    "Python.main7.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
@@ -124,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755246915333</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changes">
+      <option name="closed" value="true" />
+      <created>1755247599675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755247599675</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
