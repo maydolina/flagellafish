@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115b16d9-dad6-4312-9509-2cf0fde79a91" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/main7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotting5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/environment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/frequency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/viscosity.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.debug.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main2.executor": "Run",
     "Python.main3.executor": "Run",
@@ -53,6 +58,13 @@
     "Python.main5.executor": "Run",
     "Python.main6.executor": "Run",
     "Python.main7.executor": "Run",
+    "Python.plotting.executor": "Run",
+    "Python.plotting2.executor": "Run",
+    "Python.plotting3.executor": "Run",
+    "Python.plotting4.executor": "Run",
+    "Python.plotting5.executor": "Run",
+    "Python.refactored_sim.executor": "Run",
+    "Python.script.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
@@ -135,13 +147,50 @@
       <option name="project" value="LOCAL" />
       <updated>1755247599675</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added main7">
+      <option name="closed" value="true" />
+      <created>1755286765419</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755286765419</updated>
+    </task>
+    <task id="LOCAL-00009" summary="main7">
+      <option name="closed" value="true" />
+      <created>1755286976093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755286976093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changes">
+      <option name="closed" value="true" />
+      <created>1755331576072</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755331576072</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added v2" />
     <MESSAGE value="added v3" />
+    <MESSAGE value="added main7" />
+    <MESSAGE value="main7" />
     <MESSAGE value="changes" />
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plotting5.py</url>
+          <line>1722</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
