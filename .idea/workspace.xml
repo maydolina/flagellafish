@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115b16d9-dad6-4312-9509-2cf0fde79a91" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/plotting5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/environment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/frequency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/size.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/no/analysis_graphs/viscosity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main7.py" beforeDir="false" afterPath="$PROJECT_DIR$/main7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotting5.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotting5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.debug.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "Python.main3.executor": "Run",
-    "Python.main4.executor": "Run",
-    "Python.main5.executor": "Run",
-    "Python.main6.executor": "Run",
-    "Python.main7.executor": "Run",
-    "Python.plotting.executor": "Run",
-    "Python.plotting2.executor": "Run",
-    "Python.plotting3.executor": "Run",
-    "Python.plotting4.executor": "Run",
-    "Python.plotting5.executor": "Run",
-    "Python.refactored_sim.executor": "Run",
-    "Python.script.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotting2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotting3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotting4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plotting5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.refactored_sim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.script.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -171,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755331576072</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changes">
+      <option name="closed" value="true" />
+      <created>1755334116697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755334116697</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,7 +192,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/plotting5.py</url>
-          <line>1722</line>
+          <line>1723</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

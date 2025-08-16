@@ -49,7 +49,7 @@ ENVIRONMENTS = {
 def reynolds(rho: float, U: float, L: float, mu: float) -> float:
     if mu <= 0 or L <= 0:
         return 0.0
-    return rho * U * L / mu
+    return (rho * U * L) / mu
 
 
 def cd_blend(Re: float) -> float:
