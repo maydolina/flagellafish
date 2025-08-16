@@ -4,6 +4,7 @@ import sys
 from dataclasses import dataclass
 from enum import Enum
 from typing import Tuple, List
+import analysis
 
 
 # --------------------
@@ -321,6 +322,13 @@ class Game:
                     if e.key == pygame.K_d: self.speed_precision = max(0, self.speed_precision - 1)
                     if e.key == pygame.K_r: self.re_precision = min(20, self.re_precision + 1)
                     if e.key == pygame.K_t: self.re_precision = max(0, self.re_precision - 1)
+                    if e.key == pygame.K_g:
+                        scen_name = self.scenario  # "bacteria" or "fish"
+                        L = self.top.L  # both top/bottom share L & freq
+                        f = self.top.freq
+                        outdir = "./plots_export"
+                        analysis.run_all_plots(outdir, scen_name, L, f, ENVIRONMENTS)
+                        print(f"[Analysis] Exported plots & CSV to {outdir}")
 
             keys = pygame.key.get_pressed()
             if keys[pygame.K_q]: self.top.freq = self.bottom.freq = min(1000, self.top.freq * 1.02)
