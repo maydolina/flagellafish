@@ -1,0 +1,29 @@
+{
+  "total_simulations": 680,
+  "fin_simulations": 340,
+  "flagella_simulations": 340,
+  "bacteria_scale": 338,
+  "fish_scale": 342,
+  "parameter_ranges": {
+    "size": {
+      "min": 1e-06,
+      "max": 1.0
+    },
+    "frequency": {
+      "min": 0.1,
+      "max": 1000.0
+    },
+    "viscosity": {
+      "min": 1e-06,
+      "max": 100.0
+    },
+    "density": {
+      "min": 1.0,
+      "max": 10000.0
+    },
+    "reynolds": {
+      "min": 0.0,
+      "max": 27501179.619749982
+    }
+  }
+}
